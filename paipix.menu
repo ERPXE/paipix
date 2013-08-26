@@ -1,0 +1,14 @@
+MENU BEGIN PAIPIX
+MENU LABEL ^Paipix 10.2.19
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/paipix/paipix.png
+
+MENU INCLUDE er/plugins/paipix/i386/paipixmain.menu
+MENU INCLUDE er/plugins/paipix/x86_64/paipixmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

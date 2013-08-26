@@ -1,0 +1,8 @@
+LABEL PAIPIX32
+MENU LABEL ^Paipix Live - x32
+KERNEL er/plugins/paipix/i386/vmlinuz
+INITRD er/plugins/paipix/i386/initrd.img
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/paipix/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Paipix Live x32.
+ENDTEXT
